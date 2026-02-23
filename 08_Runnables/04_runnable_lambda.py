@@ -49,7 +49,7 @@ result = chain.invoke({'topic' : 'AI'})
 final_result = f"{result['joke']} \n Word Count : {result['word_count']}"
 
 print(final_result)
-####### feat: implement joke generation pipeline with non-enforced length validation
+
 
 # validation means : Only we defined prechecks for the llm response if the response is less than 20 words means it will return true and if it's not then it will return false
 # Error handeling according to response as true or false on frontend we do other checks like should this response to be display or not on UI
