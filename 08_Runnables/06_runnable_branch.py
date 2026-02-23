@@ -41,7 +41,6 @@ result = chain.invoke({'topic' : "GenZ protest in Nepal"})
 
 print(result)
 
-####### feat: add report generation pipeline with length check and conditional regeneration
 
 # Note :: Sequential chain can be created like :
 # 1.  Sequential(template, model, parser)
