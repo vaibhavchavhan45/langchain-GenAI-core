@@ -42,4 +42,3 @@ print(result)
 print("JOKE : ", result['joke'])
 print("Explanation : ", result['Explanation'])
 
-# feat: generate a joke and its explanation using combined sequential, parallel and passthrough runnables
