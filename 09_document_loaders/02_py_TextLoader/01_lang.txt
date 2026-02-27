@@ -1,0 +1,11 @@
+LangChain is a framework for building applications powered by large language models.
+
+It provides tools for:
+- Document loading
+- Text splitting
+- Embeddings
+- Vector stores
+- Chains and agents
+
+This is a simple text file used to demonstrate how a .txt file
+can be loaded into a LangChain Document object without using TextLoader.
