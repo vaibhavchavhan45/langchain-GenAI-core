@@ -6,7 +6,8 @@ load_dotenv()
 
 # Google Gemini embeddings
 embeddings = GoogleGenerativeAIEmbeddings(
-    model="models/text-embedding-004",
+    # model="models/text-embedding-004",
+    model="models/gemini-embedding-001",
     google_api_key=os.getenv("GOOGLE_API_KEY")
 )
 
